@@ -1,0 +1,90 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body{font-family: 'Poppins', sans-serif;
+     background: #fafafa;}
+html {
+	scroll-behavior: smooth;
+}
+a,
+a:hover,
+a:focus{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+.container1{
+	margin-top: 6%;
+	width: 750px;
+	padding-left: 20px;
+	border: 1px solid #2ed5a8;
+	padding-top: 13px;
+   padding-bottom: 12px;
+	border-radius: 10px;
+	margin-left: -22%;
+
+}
+
+  .btn-group{
+  background: #0275d8;
+  color: #fff;
+  height: 150px;
+  margin-top: 15px;
+ padding-left: 3%;
+ padding-right: 3%;
+ padding-top: 1.5%;
+  padding-bottom:  1%;
+  border-radius: 25px;
+  margin-top: 1%;
+  margin-left: 20px;
+   animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+.containercat:hover{
+	background: #51A5DD;
+transition: all 0.5s;
+}
+
+.containercat h2{
+	font-size: 18px;
+	margin-top: 80px;
+}
+.btn1{
+	margin-bottom: 0.2%;
+	margin-top: 0.2%;
+}
+
+@media(max-width:768px){
+  .container1{
+    width: 400px;
+    margin-left: 5%;
+  }
+  .btn-group{
+    width: 200px;
+
+  }.col-md-7{
+    margin-left: 5%;
+    width: 58%;
+  }
+  
+}
+   /* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #00cc99 1%, #00ffcc 71%);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#00ffcc;
+}
